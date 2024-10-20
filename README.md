@@ -1,35 +1,37 @@
 # BUBT Forum
 
-BUBT Forum is an Android application designed to facilitate communication and interaction among students and faculty members of BUBT (Bangladesh University of Business and Technology). The application allows users to create and share posts, view a news feed, and interact with other users' posts.
+**BUBT Forum** is an Android application designed to enhance communication and interaction among students and faculty members of **Bangladesh University of Business and Technology (BUBT)**. The app allows users to create and share posts, view a news feed, and engage with posts through comments and likes.
 
 ## Key Features
 
-- **News Feed**: Displays a list of posts created by users.
-- **Create Post**: Allows users to create new posts, including uploading images.
+- **News Feed**: Displays a dynamic list of posts from users.
+- **Create Post**: Enables users to create and publish new posts, with the option to upload images.
 - **Image Upload**: Users can select and upload images from their device's gallery.
-- **User Interaction**: Users can view and interact with posts created by others.
+- **User Interaction**: Users can interact with others' posts by liking or commenting.
 
 ## Technologies Used
 
-- **Java**: Primary programming language for the application.
-- **Kotlin**: Used in conjunction with Java for Android development.
+- **Java**: The primary programming language for the app's development.
+- **Kotlin**: Used alongside Java to enhance Android development.
 - **Gradle**: Build automation tool used for managing dependencies and building the project.
-- **Android Studio**: Integrated Development Environment (IDE) used for developing the application.
-- **Glide**: Image loading and caching library for Android.
+- **Android Studio**: Integrated Development Environment (IDE) for Android development.
+- **Glide**: Image loading and caching library to handle image display and performance.
 
 ## Project Structure
 
 - **Activities**: 
-  - `CreatePostActivity`: Handles the creation of new posts, including image selection and upload.
-  - `NewsFeedActivity`: Displays the news feed with posts from users.
-- **Layouts**: XML files defining the UI components for each activity.
-- **Data Binding**: Utilized for binding UI components in the XML layout files to data sources in the application logic.
+  - `CreatePostActivity`: Manages the creation of posts and image uploads.
+  - `NewsFeedActivity`: Displays the news feed, showing posts from all users.
+  
+- **Layouts**: XML files define the UI components for each activity.
+  
+- **Data Binding**: Used to bind UI components in XML to the data in application logic for cleaner, more efficient code.
 
 ## Getting Started
 
 1. **Clone the repository**:
-   ```sh
-   [git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/Kamruzzaman2200/BUBT-Forum.git)
+   ```bash
+   git clone https://github.com/Kamruzzaman2200/BUBT-Forum.git
 2. **Open the project in Android Studio**.
 3. **Build and run the application** on an Android device or emulator.
 
