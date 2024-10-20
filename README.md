@@ -29,7 +29,7 @@ BUBT Forum is an Android application designed to facilitate communication and in
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+   [git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/Kamruzzaman2200/BUBT-Forum.git)
 2. **Open the project in Android Studio**.
 3. **Build and run the application** on an Android device or emulator.
 
